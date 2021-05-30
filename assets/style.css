@@ -1,0 +1,18 @@
+.card-paket {
+  border: 10px solid white;
+}
+.card-paket:hover {
+  cursor: pointer;
+  border: 10px rgb(104, 104, 255);
+  border-style: dotted;
+}
+
+.text-primary,
+.link-primary {
+  color: blueviolet !important;
+}
+.btn-primary,
+.bg-primary {
+  background-color: blueviolet !important;
+  border-color: blueviolet;
+}

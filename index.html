@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link href="./library/bootstrap-5.0.1/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- font aweseom -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <title>Hello, world!</title>
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body id="home">
+    <!-- NAVBAR -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-primary">
+      <div class="container">
+        <a class="navbar-brand" href="#">YEAY!!</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Product </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Promo</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Berita </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Tentang Kami </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active btn btn-light text-primary" aria-current="page" href="#">Daftar Sekarang</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END NAVBAR -->
+
+    <!-- CAROUSEL -->
+    <div id="carouselPageIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselPageIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselPageIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselPageIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="https://myrepublic.co.id/wp-content/uploads/2019/02/PROMO-BLIBLI-Mei21-Web-EDM.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="https://myrepublic.co.id/wp-content/uploads/2019/02/Toped-promo-MAY21-Web-EDM.jpg" class="d-block w-100" alt="..." />
+        </div>
+        <div class="carousel-item">
+          <img src="https://myrepublic.co.id/wp-content/uploads/2019/02/GenflixMR-webbanner-desktop.jpg" class="d-block w-100" alt="..." />
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselPageIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselPageIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <!-- END CAROUSEL -->
+
+    <div class="container">
+      <!-- PAKET -->
+      <div class="section-paket my-5">
+        <div class="row mb-5 text-center">
+          <h2 class="fs-1 text-primary">Paket Internet Ultra High Speed and Unlimited!</h2>
+          <p class="fs-4">Nikmati paket combo internet + TV terbaik untuk keluarga</p>
+        </div>
+
+        <div class="row mb-5 text-center">
+          <div class="col-md-3 card-paket">
+            <h3 class="text-primary fs-1">SILVER</h3>
+            <p class="fs-2">PACKAGE</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Speed Up To</p>
+            <bold class="display-1 fw-bold text-secondary">25</bold>
+            <p class="fs-4">Mpbs</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Combo TVV</p>
+            <bold class="display-1 fw-bold text-secondary">66</bold>
+            <p class="fs-4">Channels</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p>Cocok untuk penggunaan <span class="text-primary">1 hingga 4</span> perangkat sekaligus</p>
+            <h4 class="text-primary fs-1 fw-bold">Rp 319.000</h4>
+            <p><span class="fst-italic text-secondary">NETT</span> per bulan</p>
+            <a href="#" title="saya mau ini" class="btn btn-primary form-control mb-3">SAYA PESAN INI</a>
+          </div>
+          <div class="col-md-3 card-paket">
+            <h3 class="text-primary fs-1">GOLD</h3>
+            <p class="fs-2">PACKAGE</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Speed Up To</p>
+            <bold class="display-1 fw-bold text-secondary">25</bold>
+            <p class="fs-4">Mpbs</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Combo TVV</p>
+            <bold class="display-1 fw-bold text-secondary">66</bold>
+            <p class="fs-4">Channels</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p>Cocok untuk penggunaan <span class="text-primary">1 hingga 4</span> perangkat sekaligus</p>
+            <h4 class="text-primary fs-1 fw-bold">Rp 419.000</h4>
+            <p><span class="fst-italic text-secondary">NETT</span> per bulan</p>
+            <a href="#" title="saya mau ini" class="btn btn-primary form-control mb-3">SAYA PESAN INI</a>
+          </div>
+          <div class="col-md-3 card-paket">
+            <h3 class="text-primary fs-1">DIAMOND</h3>
+            <p class="fs-2">PACKAGE</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Speed Up To</p>
+            <bold class="display-1 fw-bold text-secondary">25</bold>
+            <p class="fs-4">Mpbs</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Combo TVV</p>
+            <bold class="display-1 fw-bold text-secondary">66</bold>
+            <p class="fs-4">Channels</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p>Cocok untuk penggunaan <span class="text-primary">1 hingga 4</span> perangkat sekaligus</p>
+            <h4 class="text-primary fs-1 fw-bold">Rp 519.000</h4>
+            <p><span class="fst-italic text-secondary">NETT</span> per bulan</p>
+            <a href="#" title="saya mau ini" class="btn btn-primary form-control mb-3">SAYA PESAN INI</a>
+          </div>
+          <div class="col-md-3 card-paket">
+            <h3 class="text-primary fs-1">PLATINUM</h3>
+            <p class="fs-2">PACKAGE</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Speed Up To</p>
+            <bold class="display-1 fw-bold text-secondary">25</bold>
+            <p class="fs-4">Mpbs</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p class="fs-4">Combo TVV</p>
+            <bold class="display-1 fw-bold text-secondary">66</bold>
+            <p class="fs-4">Channels</p>
+            <hr style="height: 5px" class="text-primary" />
+            <p>Cocok untuk penggunaan <span class="text-primary">1 hingga 4</span> perangkat sekaligus</p>
+            <h4 class="text-primary fs-1 fw-bold">Rp 619.000</h4>
+            <p><span class="fst-italic text-secondary">NETT</span> per bulan</p>
+            <a href="#" title="saya mau ini" class="btn btn-primary form-control mb-3">SAYA PESAN INI</a>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 offset-md-3">
+            <a class="btn btn-primary form-control mb-3 text-center" data-bs-toggle="collapse" href="#collapsePaketTV" role="button" aria-expanded="false" aria-controls="collapsePaketTV"> Informasi Paket TV </a>
+            <div class="collapse mb-3" id="collapsePaketTV">
+              <div class="card card-body">
+                <img src="https://myrepublic.co.id/wp-content/uploads/2019/02/Combo-forweb-BasicTV-min.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 offset-md-3">
+            <a class="btn btn-primary form-control mb-3 text-center" data-bs-toggle="collapse" href="#collapseInfoSyaratDanKetentuan" role="button" aria-expanded="false" aria-controls="collapseInfoSyaratDanKetentuan">
+              Syarat dan Ketentuan
+            </a>
+            <div class="collapse mb-3" id="collapseInfoSyaratDanKetentuan">
+              <div class="card card-body">
+                <ul class="text-left">
+                  <li>Harga sudah termasuk PPN 10%</li>
+                  <li>Harga sudah termasuk biaya sewa perangkat</li>
+                  <p></p>
+                  <li>Harga dan paket berlaku untuk area dan periode tertentu</li>
+                  <li>Harga dan paket dapat berubah sewaktu-waktu</li>
+                  <li>Sewa STB tambahan Rp.44.000/bln</li>
+                  <li>Maksimal 2 STB dalam 1 lokasi</li>
+                  <li>Persediaan terbatas</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- END PAKET -->
+
+      <!-- SERVICE -->
+      <div class="section-service my-5">
+        <div class="row mb-5 justify-content-center align-items-center">
+          <div class="col-md-4 mb-3 text-md-start text-center">
+            <img class="img-fluid" src="https://myrepublic.co.id/wp-content/uploads/2019/04/banner-3-h.png" alt="img" />
+          </div>
+          <div class="col-md-4 mb-3 text-md-start text-center">
+            <h2 class="fs-1 fw-bold text-primary">Streaming Dan Gaming Dengan Kecepatan Tinggi</h2>
+            <p class="text-muted">Internet Ultra Cepat Download Streaming Gaming. Temukan berbagai paket internet super cepat dengan harga super terjangkau.</p>
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">BANDINGKAN DISINI!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 justify-content-center align-items-center">
+          <div class="col-md-4 mb-3 text-md-start text-center order-md-first order-sm-last">
+            <h2 class="fs-1 fw-bold text-primary">Lebih Cepat, Lebih Terjangkau</h2>
+            <p class="text-muted">MyRepublic menawarkan berbagai paket super cepat dengan harga super terjangkau. Bayar lebih murah untuk kualitas dan kecepatan lebih baik.</p>
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">BANDINGKAN DISINI!</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 text-md-start text-center order-md-last order-first">
+            <img class="img-fluid" src="https://myrepublic.co.id/wp-content/uploads/2019/04/banner-5-h.png" alt="img" />
+          </div>
+        </div>
+
+        <div class="row mb-5 justify-content-center align-items-center">
+          <div class="col-md-4 mb-3 text-md-start text-center">
+            <img class="img-fluid" src="https://myrepublic.co.id/wp-content/uploads/2019/04/banner-3-h.png" alt="img" />
+          </div>
+          <div class="col-md-4 mb-3 text-md-start text-center">
+            <h2 class="fs-1 fw-bold text-primary">STV Pilihan Untuk Seluruh Keluarga</h2>
+            <p class="text-muted">Semua saluran TV lokal, serta Disney, FOX, dan lainnya..</p>
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">LIHAT DAFTAR CHANNEL!</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-5 justify-content-center align-items-center">
+          <div class="col-md-4 mb-3 text-md-start text-center order-md-first order-sm-last">
+            <h2 class="fs-1 fw-bold text-primary">Dibangun Oleh Gamers untuk Gamers</h2>
+            <p class="text-muted">Custom routing ke server game kelas dunia menjadikan koneksi MyRepublic rendah latensi. Tidak ada lagi lag yang bisa menghalangi kamu untuk menang!</p>
+            <div class="buttons">
+              <a href="#" class="btn btn-primary">LIHAT SELENGKAPNYA</a>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3 text-md-start text-center order-md-last order-first">
+            <img class="img-fluid" src="https://myrepublic.co.id/wp-content/uploads/2019/04/banner-6-h.png" alt="img" />
+          </div>
+        </div>
+      </div>
+      <!-- END SERVICE -->
+
+      <h1>Hello, world!</h1>
+    </div>
+
+    <div class="container-fluid">
+      <!-- KUIS -->
+      <div class="row justify-content-center align-items-center py-5" style="background-color: blueviolet">
+        <div class="col-md-5">
+          <h2 class="fs-3 text-light text-center">Paket Internet Ultra High Speed and Unlimited!</h2>
+          <p class="text-light text-center">Bingung ingin memilih paket yang mana? Isi kuis nya dan kami akan merekomendasikan Paket Internet terbaik yang sesuai dengan kebutuhan kamu</p>
+          <a href="#" class="btn btn-warning form-control text-primary">Kuis</a>
+        </div>
+      </div>
+      <!-- END KUIS -->
+      <div class="mt-3"></div>
+      <!-- CONTACT -->
+      <div class="row justify-content-center align-items-center py-5 text-center" style="background-color: blueviolet">
+        <div class="col-md-5">
+          <span class="text-light fw-bold fs-1">Hubungi Kami 1500-818</span>
+        </div>
+        <div class="col-md-5">
+          <a href="#" class="btn btn-light text-primary"> <i class="fa fa-phone"></i> 1500-818</a>
+          <a href="#" class="btn btn-light text-primary"><i class="fas fa-info-circle"></i> Jadwalkan Panggilan</a>
+        </div>
+      </div>
+      <!-- END CONTACT -->
+
+      <!-- LINKS -->
+      <div class="row justify-content-center py-5">
+        <div class="container row text-center">
+          <div class="col-md">
+            <a href="#" class="link-primary">Promo</a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="link-primary">Kebijakan Privasi</a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="link-primary">Liputan Media</a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="link-primary">Siaran Pers</a>
+          </div>
+          <div class="col-md">
+            <a href="#" class="link-primary">Bantuan</a>
+          </div>
+        </div>
+      </div>
+      <!-- END LINKS -->
+
+      <!-- SOCIAL MEDIA -->
+      <div class="row justify-content-center py-5">
+        <div class="col-md-4 row justify-content-start text-center">
+          <div class="col">
+            <a href="#" class="link-primary"><i class="fab fa-whatsapp-square fs-1"></i></a>
+          </div>
+          <div class="col">
+            <a href="#" class="link-primary"><i class="fab fa-twitter-square fs-1"></i></a>
+          </div>
+          <div class="col">
+            <a href="#" class="link-primary"><i class="fab fa-instagram-square fs-1"></i></a>
+          </div>
+          <div class="col">
+            <a href="#" class="link-primary"><i class="fab fa-youtube-square fs-1"></i></a>
+          </div>
+        </div>
+        <p class="mt-5 text-center">&copy 2021 Clone MyRepublic</p>
+      </div>
+      <!-- END SOCIAL MEDIA -->
+    </div>
+    <div class="fixed-bottom">
+      <a href="#home"><i class="fas fa-chevron-circle-up fs-1 text-primary" title="Back to top"></i></a>
+    </div>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="./library/bootstrap-5.0.1/js/bootstrap.min.js"></script>
+  </body>
+</html>
