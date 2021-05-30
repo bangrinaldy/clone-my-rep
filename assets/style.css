@@ -1,18 +1,24 @@
+.text-primary,
+.link-primary {
+  color: #13acfb !important;
+}
+
+.btn-primary,
+.bg-primary {
+  background-color: #13acfb !important;
+  border-color: #13acfb;
+}
+
+.btn-primary:hover {
+  background-color: #0051a3 !important;
+  border-color: #0051a3;
+}
+/*  END GLOBALS */
 .card-paket {
   border: 10px solid white;
 }
 .card-paket:hover {
   cursor: pointer;
-  border: 10px rgb(104, 104, 255);
+  border: 10px #13acfb;
   border-style: dotted;
-}
-
-.text-primary,
-.link-primary {
-  color: blueviolet !important;
-}
-.btn-primary,
-.bg-primary {
-  background-color: blueviolet !important;
-  border-color: blueviolet;
 }
